@@ -51,8 +51,7 @@ def capture_photos(name):
         
         elif key == ord('q'):  # Q key
             break
-    
-    # Clean up
+            
     cv2.destroyAllWindows()
     picam2.stop()
     print(f"Photo capture completed. {photo_count} photos saved for {name}.")
